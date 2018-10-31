@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<paths xmlns:android="http://schemas.android.com/apk/res/android">
-    <!--internal storage -->
-    <files-path path="/" name="myfiles" />
-
-    <!--external storage -->
-    <external-path path="Documents/" name="documents" />
-    <external-path path="Pictures/" name="pictures" />
-</paths>

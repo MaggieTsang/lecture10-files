@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.uw.filedemo">
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -25,15 +23,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="edu.uw.filedemo.MainActivity" />
         </activity>
-        <provider
-            android:name="android.support.v4.content.FileProvider"
-            android:authorities="edu.uw.filedemo.fileprovider"
-            android:grantUriPermissions="true"
-            android:exported="false">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/filepaths" />
-        </provider>
     </application>
 
 </manifest>
